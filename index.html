@@ -48,9 +48,10 @@
 			    var send = document.getElementById("submit");
 			    document.addEventListener("backbutton", onBackKeyDown, true);
 				send.addEventListener('click', function () {
+				alert('open');
 			    cordova.plugins.email.isAvailable(
 			    function (isAvailable) {
-			    //alert('open');
+			    alert('open');
 			    var butinput = $('#basic').val();
 			    var radiovalue = $('input[type="radio"]:checked').prev().text();
 			    var checkValues ='';
