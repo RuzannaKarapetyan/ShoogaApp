@@ -118,29 +118,29 @@ h1 {
 	font-weight: bold;
 }
 label {
-    font-size: 16px !important;
+    font-size: 22px !important;
 }
 #next {
 	margin 20px 0px;
-	font-size: 20px !important;
+	font-size: 22px !important;
 	float: right;
 }
 #basic {
 	background: #fff;
-	font-size: 20px !important;
+	font-size: 22px !important;
 }
 #fname, #lname {
 	background-color: #fff;
 	margin-bottom: 10px;
 	color:#000;
-	font-size: 14px;
+	font-size: 22px;
 	width: 100% !important;
 }
  #myText {
  	background-color: #fff;
 	margin-bottom: 10px;
 	color:#000;
-	font-size: 14px;
+	font-size: 22px;
 	width: 97% !important;
 	margin: 0 auto;
  }
@@ -150,6 +150,7 @@ label {
 #submit {
 	width: 100% !important;
 	margin: 0 auto;
+	font-size: 22px !important;
 }
 label {
 	padding: 5px 0px;
@@ -157,13 +158,13 @@ label {
 .question {
 	background-color: #ff4b00 !important;
 	color: #fff;
-	padding: 5px 10px;
+	padding: 5px 15px;
 	float: right;
 	text-align: center;
-	font-size: 16px;
+	font-size: 22px;
 }
 .description {
-	font-size: 16px;
+	font-size: 22px;
 	margin-left: 40px;
 }
 #lab {
@@ -171,13 +172,17 @@ position: relative;
 }
 .question {
 	position: absolute;
-	top: 7px;
+	top: 10px;
 	right: 0px;
 	z-index: 1000;
 	font-weight: bold;
+	font-size: 22px !important;
 }
 .show {
 	display: block !important;
+}
+.custom, #lab input, #lab label, #radio_but input,  #radio_but label {
+	font-size: 22px !important;
 }
 .description {
 	display: none;
