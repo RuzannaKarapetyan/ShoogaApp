@@ -68,7 +68,10 @@
 			    to:      ['ruzanna@shooga.ca'],
 			    subject: 'hi',
 			    body:    textbody
-			});
+			}, function(){
+             alert('Thanks for message');
+             window.location.reload();//callback function to navigate to the "success" page after the e-mail view has been dismissed.    
+        }, this);
 			    }
 			);
 			}, false);
